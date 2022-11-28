@@ -1,0 +1,16 @@
+﻿ <!--
+  FILE			: App.xaml
+  PROJECT		: A06 - Services
+  PROGRAMMER(S)	: Raj Dudhat, Jainish Patel, Philip Wojdyna
+  FIRST VERSION	: 2022-11-25
+  DESCRIPTION	: XAML file "App" for Hi-Lo Game created using WPF and TCP/IP methods. 
+ -->
+    <Application x:Class="Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Client"
+             StartupUri="ConnectionDetailsWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

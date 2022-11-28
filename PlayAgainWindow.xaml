@@ -1,0 +1,26 @@
+﻿<!--
+  FILE			: PlayAgainWindow.xaml
+  PROJECT		: A06 - Services
+  PROGRAMMER(S)	: Raj Dudhat, Jainish Patel, Philip Wojdyna
+  FIRST VERSION	: 2022-11-25
+  DESCRIPTION	: XAML file "PlayAgainWindow" for Hi-Lo Game created using WPF and TCP/IP methods. 
+ -->
+<Window x:Class="Client.PlayAgainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Hi-Lo" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="181*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ExitButtonYouWinWindow" Content="EXIT" HorizontalAlignment="Left" Margin="616,364,0,0" VerticalAlignment="Top" Height="36" Width="65" Click="ExitButtonYouWinWindow_Click" Grid.Column="1" FontWeight="Bold"/>
+        <Label x:Name="YouWinLabel" Content="YOU WIN!" HorizontalAlignment="Left" Margin="192,152,0,0" VerticalAlignment="Top" Foreground="#FF48FF00" FontSize="48" FontFamily="Arial Black" Grid.Column="1" Height="65" Width="264" FontWeight="Bold"/>
+        <Button x:Name="PlayAgainButton" Content="PLAY AGAIN" HorizontalAlignment="Left" Margin="280,257,0,0" VerticalAlignment="Top" Height="46" Width="88" Grid.Column="1" FontWeight="Bold" Click="PlayAgainButton_Click"/>
+
+    </Grid>
+</Window>
