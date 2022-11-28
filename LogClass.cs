@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service_A06
+namespace Server_Side___A05
 {
+   
     internal class LogClass
     {
         public object log1 = new object();
@@ -23,5 +23,4 @@ namespace Service_A06
         }
 
     }
-
 }

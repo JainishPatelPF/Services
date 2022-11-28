@@ -21,13 +21,19 @@ namespace Service_A06
 
         protected override void OnStart(string[] args)
         {
-            Logger.Log("Service Started");
-
+            //LogClass logstart = new LogClass();
+            EventLogger.Log("Service Started");
+            Listener listener = new Listener(); //Object of Listener Class.
+            listener.StartListener(); //Calls the method StartListener.
+           
         }
 
         protected override void OnStop()
         {
-            Logger.Log("Service Stoped");
+           // LogClass logend = new LogClass();
+            EventLogger.Log("Service Ended");
+            Listener listener = new Listener();
+            listener.server.Stop();
         }
     }
 }

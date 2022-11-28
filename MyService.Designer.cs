@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.projectInstaller1 = new Service_A06.ProjectInstaller();
             // 
             // MyService
             // 
@@ -37,7 +36,5 @@
         }
 
         #endregion
-
-        private ProjectInstaller projectInstaller1;
     }
 }

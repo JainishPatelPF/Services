@@ -1,0 +1,11 @@
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.csproj.AssemblyReference.cache
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.csproj.SuggestedBindingRedirects.cache
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.ProjectInstaller.resources
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.csproj.GenerateResource.cache
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.csproj.CoreCompileInputs.cache
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\bin\Debug\Service_A06.exe.config
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\bin\Debug\Service_A06.exe
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\bin\Debug\Service_A06.pdb
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.exe
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.pdb
+C:\Users\rajdu\source\repos\Service_A06\Service_A06\obj\Debug\Service_A06.MyService.resources

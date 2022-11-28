@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EventLogger.cs" />
+    <Compile Include="Listener.cs" />
+    <Compile Include="LogClass.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MyService.cs">
       <SubType>Component</SubType>
@@ -72,6 +75,9 @@
     <EmbeddedResource Include="ProjectInstaller.resx">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
