@@ -2,7 +2,7 @@
   FILE			: Listener.cs
   PROJECT		: A05 – TCP/IP
   PROGRAMMER(S)	: Raj Dudhat, Jainish Patel, Philip Wojdyna
-  FIRST VERSION	: 2022-11-18
+  FIRST VERSION	: 2022-11-28
   DESCRIPTION	: Server Side for the Hi-Lo Game.
 */
 
@@ -56,7 +56,7 @@ namespace Service_A06
                 int min = r.Next(1, 50);
                 int max = r.Next(52, 100);
 
-                string path = "GuessRange.txt";
+                string path = "D:\\Temp\\Config.txt";
                 using (StreamWriter streamWriter = new StreamWriter(path))
                 {
                     streamWriter.WriteLine(min);
@@ -85,7 +85,7 @@ namespace Service_A06
             catch (SocketException e)
             {
                 
-                LogClass logException = new LogClass();
+                LogClass logException = new LogClass(); //logging exception to the file
                 logException.Log(e.Message.ToString());
             }
             finally

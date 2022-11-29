@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+  FILE			: MyService.cs
+  PROJECT		: A06 
+  PROGRAMMER(S)	: Raj Dudhat, Jainish Patel, Philip Wojdyna
+  FIRST VERSION	: 2022-11-28
+  DESCRIPTION	: Service file  for the Hi-Lo Game.
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,8 +28,9 @@ namespace Service_A06
 
         protected override void OnStart(string[] args)
         {
-            //LogClass logstart = new LogClass();
-            EventLogger.Log("Service Started");
+            //logging for start of the server
+            LogClass logStart = new LogClass();
+            logStart.Log("Service Started");
             Listener listener = new Listener(); //Object of Listener Class.
             listener.StartListener(); //Calls the method StartListener.
            
@@ -30,10 +38,10 @@ namespace Service_A06
 
         protected override void OnStop()
         {
-           // LogClass logend = new LogClass();
-            EventLogger.Log("Service Ended");
+           LogClass logEnd = new LogClass();
+            logEnd.Log("Service Ended"); //logging the end of the server
             Listener listener = new Listener();
-            listener.server.Stop();
+            listener.server.Stop(); //stoping the server
         }
     }
 }
